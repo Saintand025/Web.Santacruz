@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+img {
+  width: 100%;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  height: 70px;
+  width: 100%;
+  opacity: 0.85;
+  position: fixed;
+  top: 0px;
+  padding: 0 30px;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0px 5px;
+}
+
+.navbar a:hover {
+  border-bottom: #28a745 2px solid;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .logos {
+  font-weight: 401px;
+}
+
+/* Header */
+.heros {
+  background: url(../IMAGES2/home/showcase.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+.heros .limits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 0px 20px;
+}
+
+.heros .limits h1 {
+   font-size: 55px;
+}
+
+.heros .limits p {
+  font-size: 23px;
+  max-width: 600px;
+  margin: 20px 0 30px;
+}
+
+.heros::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+}
+
+.heros * {
+  z-index: 10;
+}
+
+/* About */
+
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.icons i {
+  background: #28a745;
+  border-radius: 50%;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 15px;
+}
+
+.cases img:hover {
+  opacity: 0.7;
+}
+
+.team img {
+   border-radius: 50%;
+}
+
+.callback-form {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.callback-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.callback-form .form-control {
+  margin-bottom: 15px;
+}
+
+.callback-form input {
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  border: #f5f5f5 1px solid;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #28a745;
+}
+
+.footer .social > * {
+  margin-right: 30px;
+}
+
+
+.footer p {
+  padding-right: 26px;
+}
